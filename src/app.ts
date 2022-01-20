@@ -1,9 +1,9 @@
 /*
-* File: app.ts, app.js
+* File: app.ts
 * Author: Katona Valentin
-* Copyright: 2021, Katona Valentin
+* Copyright: 2022, Katona Valentin
 * Group: Szoft II N
-* Date: 2021-10-29
+* Date: 2022-01-20
 * Github: https://github.com/djvalee/
 * Licenc: GNU GPL
 */
@@ -15,7 +15,7 @@ const result=document.querySelector("#result") as HTMLInputElement;
 const calcButton=document.querySelector("#calcButton");
 
 function add(number1:number, number2:number):number {
-    return number1 / number2 ** 2;
+    return (5/2) * number1 * number2;
 }
 
 calcButton.addEventListener('click', event => {
